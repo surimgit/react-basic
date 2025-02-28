@@ -51,7 +51,7 @@ export default function HookComponent2() {
   return (
     <div>
       <h1>일반변수: {number}</h1>
-      <h1>상태변수: {state}</h1>
+      <h1>상태변수: {state}</h1> 
       <h1>참조 변수: {ref.current}</h1>
       <button onClick={onVar}>일반 증가!</button>
       <button onClick={onClick}>클릭!</button>
